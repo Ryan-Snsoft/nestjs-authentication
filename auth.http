@@ -5,3 +5,9 @@ content-type: application/json
     "username": "Bob",
     "password": "hashme2"
 }
+
+
+### request without header
+
+GET http://localhost:3000/auth/home
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXJuYW1lIjoiQm9iIiwiaWF0IjoxNzI0MDM4MDgwLCJleHAiOjE3MjQwNDE2ODB9.4Ptl2Ld5aG8C-z1tIbuOTp5GT8GgIc_7LXqrs9amo5w
